@@ -1,0 +1,36 @@
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+    <div class="w3-container w3-card" style="margin-top:80px" id="showcase">
+            <h1 class="w3-xxxlarge"><b>{{ result[0].tlang }}</b></h1>
+            <a href="{{ path('index') }}"><span class="w3-large w3-padding-16 w3-ripple ">
+                <i id="arrow" class="fa fa-angle-double-left w3-large" aria-hidden="true"></i> Back
+            </span></a>
+            <div class="w3-row-padding w3-padding-16">
+                <div class="w3-col l2">&nbsp;</div>
+                 <div class="w3-col l8">
+                    <div class="w3-content w3-display-container container">
+                        <img class="w3-image sameimg" src="images/{{ result[0].img }}" style="width:100%; position: relative;" >
+                            <div class="overlay">
+                                <a onclick="document.getElementById('modal01').style.display='block'" class="icon" title="Aumentar">
+                                    <i class="fas fa-plus"></i>
+                                </a>
+                            </div>
+                        <div id="modal01" class="w3-modal w3-animate-zoom" style="background-color:black;" >
+                            <div class="w3-modal-content" style="background-color: #000;">
+                                <div class="w3-center">
+                                    <span style="z-index: 23;" onclick="document.getElementById('modal01').style.display='none'" class="w3-button w3-large w3-hover-red w3-display-topright" title="Close Modal">&times;</span>
+                                </div>
+                            {% for result in result %}
+                                <img class="mySlides w3-image sameimg" src="images/{{ result.img }}" style="width:100%">
+                            {% endfor %}
+                                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <div>
+                <h4 class="font w3-center">{{ result[0].lang }}</h4>
+            </div>
+    </div>
+<div>

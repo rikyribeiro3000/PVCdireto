@@ -1,0 +1,130 @@
+[14-Oct-2018 16:24:44 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: A value containing spaces must be surrounded by quotes in "/home/qp2xniqh/pvc.myapps.pt/public/../.env" at line 3.
+...sword=pvcdireto19932\nDATABASE_URL=mysql:...
+                      ^ line 3 offset 171 in /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php:400
+Stack trace:
+#0 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(255): Symfony\Component\Dotenv\Dotenv->createFormatException('A value contain...')
+#1 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(128): Symfony\Component\Dotenv\Dotenv->lexValue()
+#2 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(57): Symfony\Component\Dotenv\Dotenv->parse('APP_ENV=dev\nAPP...', '/home/qp2xniqh/...')
+#3 /home/qp2xniqh/pvc.myapps.pt/public/index.php(15): Symfony\Component\Dotenv\Dotenv->load('/home/qp2xniqh/...')
+#4 {main}
+  thrown in /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php on line 400
+[14-Oct-2018 16:24:48 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: A value containing spaces must be surrounded by quotes in "/home/qp2xniqh/pvc.myapps.pt/public/../.env" at line 3.
+...sword=pvcdireto19932\nDATABASE_URL=mysql:...
+                      ^ line 3 offset 171 in /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php:400
+Stack trace:
+#0 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(255): Symfony\Component\Dotenv\Dotenv->createFormatException('A value contain...')
+#1 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(128): Symfony\Component\Dotenv\Dotenv->lexValue()
+#2 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(57): Symfony\Component\Dotenv\Dotenv->parse('APP_ENV=dev\nAPP...', '/home/qp2xniqh/...')
+#3 /home/qp2xniqh/pvc.myapps.pt/public/index.php(15): Symfony\Component\Dotenv\Dotenv->load('/home/qp2xniqh/...')
+#4 {main}
+  thrown in /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php on line 400
+[14-Oct-2018 16:24:51 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: A value containing spaces must be surrounded by quotes in "/home/qp2xniqh/pvc.myapps.pt/public/../.env" at line 3.
+...sword=pvcdireto19932\nDATABASE_URL=mysql:...
+                      ^ line 3 offset 171 in /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php:400
+Stack trace:
+#0 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(255): Symfony\Component\Dotenv\Dotenv->createFormatException('A value contain...')
+#1 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(128): Symfony\Component\Dotenv\Dotenv->lexValue()
+#2 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(57): Symfony\Component\Dotenv\Dotenv->parse('APP_ENV=dev\nAPP...', '/home/qp2xniqh/...')
+#3 /home/qp2xniqh/pvc.myapps.pt/public/index.php(15): Symfony\Component\Dotenv\Dotenv->load('/home/qp2xniqh/...')
+#4 {main}
+  thrown in /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php on line 400
+[14-Oct-2018 16:25:18 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: A value containing spaces must be surrounded by quotes in "/home/qp2xniqh/pvc.myapps.pt/public/../.env" at line 3.
+...sword=pvcdireto19932\nDATABASE_URL=mysql:...
+                      ^ line 3 offset 171 in /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php:400
+Stack trace:
+#0 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(255): Symfony\Component\Dotenv\Dotenv->createFormatException('A value contain...')
+#1 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(128): Symfony\Component\Dotenv\Dotenv->lexValue()
+#2 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(57): Symfony\Component\Dotenv\Dotenv->parse('APP_ENV=dev\nAPP...', '/home/qp2xniqh/...')
+#3 /home/qp2xniqh/pvc.myapps.pt/public/index.php(15): Symfony\Component\Dotenv\Dotenv->load('/home/qp2xniqh/...')
+#4 {main}
+  thrown in /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php on line 400
+[14-Oct-2018 16:25:19 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: A value containing spaces must be surrounded by quotes in "/home/qp2xniqh/pvc.myapps.pt/public/../.env" at line 3.
+...sword=pvcdireto19932\nDATABASE_URL=mysql:...
+                      ^ line 3 offset 171 in /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php:400
+Stack trace:
+#0 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(255): Symfony\Component\Dotenv\Dotenv->createFormatException('A value contain...')
+#1 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(128): Symfony\Component\Dotenv\Dotenv->lexValue()
+#2 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(57): Symfony\Component\Dotenv\Dotenv->parse('APP_ENV=dev\nAPP...', '/home/qp2xniqh/...')
+#3 /home/qp2xniqh/pvc.myapps.pt/public/index.php(15): Symfony\Component\Dotenv\Dotenv->load('/home/qp2xniqh/...')
+#4 {main}
+  thrown in /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php on line 400
+[14-Oct-2018 16:25:20 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: A value containing spaces must be surrounded by quotes in "/home/qp2xniqh/pvc.myapps.pt/public/../.env" at line 3.
+...sword=pvcdireto19932\nDATABASE_URL=mysql:...
+                      ^ line 3 offset 171 in /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php:400
+Stack trace:
+#0 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(255): Symfony\Component\Dotenv\Dotenv->createFormatException('A value contain...')
+#1 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(128): Symfony\Component\Dotenv\Dotenv->lexValue()
+#2 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(57): Symfony\Component\Dotenv\Dotenv->parse('APP_ENV=dev\nAPP...', '/home/qp2xniqh/...')
+#3 /home/qp2xniqh/pvc.myapps.pt/public/index.php(15): Symfony\Component\Dotenv\Dotenv->load('/home/qp2xniqh/...')
+#4 {main}
+  thrown in /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php on line 400
+[14-Oct-2018 16:25:33 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: A value containing spaces must be surrounded by quotes in "/home/qp2xniqh/pvc.myapps.pt/public/../.env" at line 3.
+...sword=pvcdireto19932\nDATABASE_URL=mysql:...
+                      ^ line 3 offset 171 in /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php:400
+Stack trace:
+#0 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(255): Symfony\Component\Dotenv\Dotenv->createFormatException('A value contain...')
+#1 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(128): Symfony\Component\Dotenv\Dotenv->lexValue()
+#2 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(57): Symfony\Component\Dotenv\Dotenv->parse('APP_ENV=dev\nAPP...', '/home/qp2xniqh/...')
+#3 /home/qp2xniqh/pvc.myapps.pt/public/index.php(15): Symfony\Component\Dotenv\Dotenv->load('/home/qp2xniqh/...')
+#4 {main}
+  thrown in /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php on line 400
+[14-Oct-2018 16:25:46 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: A value containing spaces must be surrounded by quotes in "/home/qp2xniqh/pvc.myapps.pt/public/../.env" at line 3.
+...sword=pvcdireto19932\nDATABASE_URL=mysql:...
+                      ^ line 3 offset 171 in /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php:400
+Stack trace:
+#0 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(255): Symfony\Component\Dotenv\Dotenv->createFormatException('A value contain...')
+#1 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(128): Symfony\Component\Dotenv\Dotenv->lexValue()
+#2 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(57): Symfony\Component\Dotenv\Dotenv->parse('APP_ENV=dev\nAPP...', '/home/qp2xniqh/...')
+#3 /home/qp2xniqh/pvc.myapps.pt/public/index.php(15): Symfony\Component\Dotenv\Dotenv->load('/home/qp2xniqh/...')
+#4 {main}
+  thrown in /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php on line 400
+[14-Oct-2018 16:26:56 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: A value containing spaces must be surrounded by quotes in "/home/qp2xniqh/pvc.myapps.pt/public/../.env" at line 3.
+...sword=pvcdireto19932\nDATABASE_URL=mysql:...
+                      ^ line 3 offset 171 in /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php:400
+Stack trace:
+#0 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(255): Symfony\Component\Dotenv\Dotenv->createFormatException('A value contain...')
+#1 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(128): Symfony\Component\Dotenv\Dotenv->lexValue()
+#2 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(57): Symfony\Component\Dotenv\Dotenv->parse('APP_ENV=dev\nAPP...', '/home/qp2xniqh/...')
+#3 /home/qp2xniqh/pvc.myapps.pt/public/index.php(15): Symfony\Component\Dotenv\Dotenv->load('/home/qp2xniqh/...')
+#4 {main}
+  thrown in /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php on line 400
+[14-Oct-2018 16:26:57 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: A value containing spaces must be surrounded by quotes in "/home/qp2xniqh/pvc.myapps.pt/public/../.env" at line 3.
+...sword=pvcdireto19932\nDATABASE_URL=mysql:...
+                      ^ line 3 offset 171 in /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php:400
+Stack trace:
+#0 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(255): Symfony\Component\Dotenv\Dotenv->createFormatException('A value contain...')
+#1 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(128): Symfony\Component\Dotenv\Dotenv->lexValue()
+#2 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(57): Symfony\Component\Dotenv\Dotenv->parse('APP_ENV=dev\nAPP...', '/home/qp2xniqh/...')
+#3 /home/qp2xniqh/pvc.myapps.pt/public/index.php(15): Symfony\Component\Dotenv\Dotenv->load('/home/qp2xniqh/...')
+#4 {main}
+  thrown in /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php on line 400
+[14-Oct-2018 16:26:58 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: A value containing spaces must be surrounded by quotes in "/home/qp2xniqh/pvc.myapps.pt/public/../.env" at line 3.
+...sword=pvcdireto19932\nDATABASE_URL=mysql:...
+                      ^ line 3 offset 171 in /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php:400
+Stack trace:
+#0 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(255): Symfony\Component\Dotenv\Dotenv->createFormatException('A value contain...')
+#1 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(128): Symfony\Component\Dotenv\Dotenv->lexValue()
+#2 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(57): Symfony\Component\Dotenv\Dotenv->parse('APP_ENV=dev\nAPP...', '/home/qp2xniqh/...')
+#3 /home/qp2xniqh/pvc.myapps.pt/public/index.php(15): Symfony\Component\Dotenv\Dotenv->load('/home/qp2xniqh/...')
+#4 {main}
+  thrown in /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php on line 400
+[14-Oct-2018 16:27:21 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: A value containing spaces must be surrounded by quotes in "/home/qp2xniqh/pvc.myapps.pt/public/../.env" at line 3.
+...sword=pvcdireto19932\nDATABASE_URL=mysql:...
+                      ^ line 3 offset 172 in /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php:400
+Stack trace:
+#0 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(255): Symfony\Component\Dotenv\Dotenv->createFormatException('A value contain...')
+#1 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(128): Symfony\Component\Dotenv\Dotenv->lexValue()
+#2 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(57): Symfony\Component\Dotenv\Dotenv->parse('APP_ENV=prod\nAP...', '/home/qp2xniqh/...')
+#3 /home/qp2xniqh/pvc.myapps.pt/public/index.php(15): Symfony\Component\Dotenv\Dotenv->load('/home/qp2xniqh/...')
+#4 {main}
+  thrown in /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php on line 400
+[14-Oct-2018 16:27:22 UTC] PHP Fatal error:  Uncaught Symfony\Component\Dotenv\Exception\FormatException: A value containing spaces must be surrounded by quotes in "/home/qp2xniqh/pvc.myapps.pt/public/../.env" at line 3.
+...sword=pvcdireto19932\nDATABASE_URL=mysql:...
+                      ^ line 3 offset 172 in /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php:400
+Stack trace:
+#0 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(255): Symfony\Component\Dotenv\Dotenv->createFormatException('A value contain...')
+#1 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(128): Symfony\Component\Dotenv\Dotenv->lexValue()
+#2 /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php(57): Symfony\Component\Dotenv\Dotenv->parse('APP_ENV=prod\nAP...', '/home/qp2xniqh/...')
+#3 /home/qp2xniqh/pvc.myapps.pt/public/index.php(15): Symfony\Component\Dotenv\Dotenv->load('/home/qp2xniqh/...')
+#4 {main}
+  thrown in /home/qp2xniqh/pvc.myapps.pt/vendor/symfony/dotenv/Dotenv.php on line 400

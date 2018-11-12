@@ -1,0 +1,13 @@
+index:
+  path: /{_locale}/home
+  controller: App\Controller\DefaultController::index
+  requirements:
+    _locale: pt_PT|en_EN
+email:
+  path: /email
+  controller: App\Controller\DefaultController::email
+  
+item:
+  path: /item
+  controller: App\Controller\DefaultController::item
+  

@@ -1,0 +1,1 @@
+"# PVCdireto"  initgit add README.mdgit commit -m "first commit"git remote add origin https://github.com/rikyribeiro3000/PVCdireto.gitgit push -u origin master

@@ -1,0 +1,14 @@
+swiftmailer:
+    transport:        smtp
+    username:         orcamento@myapps.pt
+    password:         pvcdireto19932
+    host:             smtp.myapps.pt
+    port:             25
+    encryption:     
+    auth-mode:        login
+    spool: { type: 'memory' }
+    stream_options:
+        ssl:
+            allow_self_signed: true
+            verify_peer: false
+            verify_peer_name: false

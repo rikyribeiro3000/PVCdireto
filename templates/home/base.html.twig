@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<title>PVC Directo - Bem vindo!</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/w3.css">
+    <link href="/css/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Domine" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="/css/animate.css" rel="stylesheet"> 
+    <link href="/css/css.css" rel="stylesheet"> 
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/tether.min.js"></script>
+    <script src="/js/all.js"></script>
+    <script src="/js/aos.js"></script>
+    <script src="/js/language.js"></script>
+
+</head>
+    <body>
+        {% include 'home/navbar.php' %}
+        {% include 'home/popup.php' %}
+        {% include 'home/imageslider.php' %}
+        {% include 'home/slider.php' %}
+        {% include 'home/images.php' %}
+        {% include 'home/modal.php' %}
+        {% include 'home/card.php' %}
+        {% include 'home/whoarewe.php' %}
+        {% include 'home/contactus.php' %}
+        {% include 'home/footer.php' %}
+    </body>
+    <script>
+// Script to open and close sidebar
+var myIndex = 0;
+carousel();
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 4000); // Change image every 2 seconds
+}
+
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+$(document).ready(function(){
+    $("#showmore").click(function(){
+        $("#show").toggleClass("w3-hide");
+          if($("#show").hasClass("w3-hide"))
+          {
+            $("#arrow").addClass("fa fa-angle-double-down");  
+          }
+          else
+          {
+            $("#arrow").addClass("fa fa-angle-double-up");  
+          }
+    });
+});
+
+AOS.init();
+
+
+
+
+function myMap()
+{
+  myCenter=new google.maps.LatLng(41.878114, -87.629798);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+</html>
