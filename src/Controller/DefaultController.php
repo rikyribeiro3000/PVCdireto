@@ -29,6 +29,7 @@ class DefaultController extends AbstractController
 
     public function email(Request $request, \Swift_Mailer $mailer) 
     {
+        $tt = $request->request->get('tt');
         $Username = $request->request->get('usrname');
         $Assunto = $request->request->get('Assunto');
         $Email = $request->request->get('Email');
@@ -47,8 +48,10 @@ class DefaultController extends AbstractController
         ;
 
         $mailer->send($message);
+        $this->addFlash('success', 'It sent!');
 
-        return $this->redirectToRoute('index');
+
+        return $this->redirectToRoute('index', array('_locale' => "$tt"));
     }
 
 }

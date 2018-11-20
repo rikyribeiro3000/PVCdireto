@@ -13,7 +13,7 @@
             </div>
             <div  class="w3-col l3 m6 w3-padding-small">
                 <div class="w3-display-container">
-                    <img src="/images/janela13.jpg" style="width:100%" class="w3-hover-greyscale equalimages" onclick="onClick(this)" alt="Concrete meets bricks">
+                    <img src="/images/janela9.jpg" style="width:100%" class="w3-hover-greyscale equalimages" onclick="onClick(this)" alt="Concrete meets bricks">
                     <span class="w3-xlarge w3-display-middle  w3-text-white">{% trans %}Services.window{% endtrans %}</span>
                     <button type="submit" name="item" value="Janelas" class="w3-tag w3-black w3-button w3-small w3-display-bottomleft">{% trans %}Services.knowmore{% endtrans %}</button>
                 </div>  
@@ -27,15 +27,15 @@
             </div>
             <div  class="w3-col l3 m6 w3-padding-small">
                 <div class="w3-display-container w3-animate-bottom">
-                    <img src="/images/portasdeentrada9.jpg" style="width:100%" class=" equalimages w3-hover-greyscale" onclick="onClick(this)" alt="Concrete meets bricks">
-                    <span class="w3-xlarge w3-display-middle  w3-text-white">{% trans %}Services.frontdoors{% endtrans %}</span>
-                    <button type="submit" name="item" value="PortasdeEntrada"  class="w3-tag w3-black w3-button w3-small w3-display-bottomleft">{% trans %}Services.knowmore{% endtrans %}</button>
+                    <img src="/images/janela12.jpg" style="width:100%" class=" equalimages w3-hover-greyscale" onclick="onClick(this)" alt="Concrete meets bricks">
+                    <span class="w3-xlarge w3-display-middle  w3-text-white">{% trans %}Services.maintenance{% endtrans %}</span>
+                    <button type="submit" name="item" value="Manutenção"  class="w3-tag w3-black w3-button w3-small w3-display-bottomleft">{% trans %}Services.knowmore{% endtrans %}</button>
                 </div>  
             </div>
-            <div class="w3-hide" id="show">
+            <div class="" id="">
                 <div class="w3-col l3 m6 w3-padding-small">
                     <div class="w3-display-container w3-animate-top">
-                        <img src="/images/variasobras7.jpg" style="width:100%" class="w3-hover-greyscale equalimages" onclick="onClick(this)" alt="Concrete meets bricks">
+                        <img src="/images/variasobras1.jpg" style="width:100%" class="w3-hover-greyscale equalimages" onclick="onClick(this)" alt="Concrete meets bricks">
                         <span class="w3-xlarge w3-display-middle  w3-text-white">{% trans %}Services.variousworks{% endtrans %}</span>
                         <button type="submit" name="item" value="Variasobras"  class="w3-tag w3-black w3-button w3-small w3-display-bottomleft">{% trans %}Services.knowmore{% endtrans %}</button>
                     </div>  
@@ -57,15 +57,10 @@
                 <div class="w3-col l3 m6 w3-padding-small">
                     <div class="w3-display-container w3-animate-top">
                         <img src="/images/portas.jpg" style="width:100%" class="w3-hover-greyscale equalimages" onclick="onClick(this)" alt="Concrete meets bricks">
-                        <span class="w3-xlarge w3-display-middle  w3-text-white">???????</span>
+                        <span class="w3-xlarge w3-display-middle  w3-text-white"></span>
                         <button type="submit" name="item" value="Portas"  class="w3-tag w3-black w3-button w3-small w3-display-bottomleft">{% trans %}Services.knowmore{% endtrans %}</button>
                     </div>  
                 </div>
             </div>
         </form>
-        <div class="w3-row w3-padding-16">
-                <button class=" w3-button w3-large w3-circle w3-large w3-ripple centering" id="showmore">
-                    <i id="arrow" class="fa fa-angle-double-down w3-large" aria-hidden="true"></i>
-                </button>
-        </div>
     </div>

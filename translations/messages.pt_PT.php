@@ -23,10 +23,9 @@ return array(
 'Services' =>array(
     'title' => 'Serviços',
     'door' => 'Portas' ,
-    'window' => 'Janelas',
+    'window' => 'Janelas + Portas de Sacada',
     'bugnet' => 'Mosquiteiras',
     'windowgrills' => 'Portadas',
-    'frontdoors' => 'Portas de Entrada',
     'blinds' => 'Estores',
     'maintenance' => 'Manutenção',
     'variousworks'=> 'Varias Obras',
@@ -42,7 +41,9 @@ return array(
     'slide3' => 'Material robusto, confere a melhor segurança...',
     'slide4' => 'Visite as nossas novas instalações naquele sitio em que todos sabemos que obviamente é uma excelente dedicação e uma grande ação'
 ),
-
+'flash' =>array(
+    'msg' => 'Enviado com sucesso',
+),
 'whoarewe' => array(
     'whoarewetitle' =>'Quem Somos',
     'whoarewecontent'=>' A PVC Directo foi criada por Sandro Luz em 2008 e dedica-se à comercialização e montagem de portas e janelas em PVC, Alumínio, Mosquiteiros, Portadas, Etc. 

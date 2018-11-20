@@ -19,14 +19,16 @@ return array(
     'title' => 'Ask for ur Budget its free!',
     'click' => 'Click Here'
 ),
+'flash' =>array(
+    'msg' => 'Email Send ',
+),
 
 'Services' =>array(
     'title' => 'Services',
     'door' => 'Doors',
-    'window' => 'Windows',
+    'window' => 'Windows + Balcony doors',
     'bugnet' => 'Bugnet',
     'windowgrills' => 'Window Grills',
-    'frontdoors' => 'Front Doors',
     'blinds' => 'Blinds',
     'maintenance' => 'Maintenance',
     'variousworks'=> 'Various Works',
