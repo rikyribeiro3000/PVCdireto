@@ -1,7 +1,7 @@
 swiftmailer:
     transport:        smtp
-    username:         orcamento@myapps.pt
-    password:         pvcdireto19932
+    username:         //something
+    password:        //something
     host:             smtp.myapps.pt
     port:             25
     encryption:     
