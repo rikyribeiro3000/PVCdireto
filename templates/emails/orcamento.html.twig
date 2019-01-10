@@ -6,6 +6,14 @@ Empresa: {{ usrname }}<br>
 Email: {{ Email }}<br>
 <h3>
 <br>
+Objetos
+    {% for cors in cor %}
+        <br>
+        <li>Tipo:{{ obj[loop.index0] }}</li>
+        <li>Cor:{{ cors }}</li>
+        <li>Largura:{{ largura[loop.index0] }}</li>
+        <li>Altura:{{ altura[loop.index0] }}</li>
+    {% endfor %}
 <br>
 <h3>
 Mensagem: {{Mensagem}}

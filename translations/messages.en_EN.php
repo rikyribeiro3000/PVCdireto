@@ -7,6 +7,7 @@ return array(
     'contact' => 'Contact us',
     'phone' => 'Phone',
     'mobilephone' => 'Mobile',
+    'budget' => 'Budget'
 
 ) ,
 'modal' =>array(
@@ -17,7 +18,8 @@ return array(
     'Message' => 'Message',
     'Submit' => 'Submit',
     'title' => 'Ask for ur Budget its free!',
-    'click' => 'Click Here'
+    'click' => 'Click Here',
+    'item' => 'Add item'
 ),
 'flash' =>array(
     'msg' => 'Email Send ',
@@ -27,14 +29,15 @@ return array(
     'title' => 'Services',
     'door' => 'Doors',
     'window' => 'Windows + Balcony doors',
-    'bugnet' => 'Bugnet',
+    'bugnet' => 'Mosquito Nets',
     'windowgrills' => 'Window Grills',
     'blinds' => 'Blinds',
     'maintenance' => 'Maintenance',
     'variousworks'=> 'Various Works',
     'knowmore' => 'Know More',
     'lang' => 'en_EN',
-    'contact' => 'Contacts'
+    'contact' => 'Contacts',
+    'send' => 'Budget send'
 
 
 ),

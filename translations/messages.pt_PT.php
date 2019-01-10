@@ -7,6 +7,7 @@ return array(
         'contact' => 'Contactos',
         'phone' => 'Telefone',
         'mobilephone' => 'Telemovel',
+        'budget' => 'Orçamento'
     ) ,
 
 'modal' =>array(
@@ -17,7 +18,8 @@ return array(
     'Message' => 'Mensagem',
     'Submit' => 'Enviar',
     'title' => 'Peça o seu orçamento grátis',
-    'click' => 'Click Here',
+    'click' => 'Clique Aqui',
+    'item' => 'Adicionar item'
 ),
 
 'Services' =>array(
@@ -31,7 +33,8 @@ return array(
     'variousworks'=> 'Varias Obras',
     'knowmore' => 'Saber Mais',
     'lang' => 'pt_PT',
-    'contact' => 'Contactos'
+    'contact' => 'Contactos',
+    'send' => 'Orçamento enviado'
 
 
 ),

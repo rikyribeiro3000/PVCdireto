@@ -33,6 +33,10 @@ class DefaultController extends AbstractController
         $Username = $request->request->get('usrname');
         $Assunto = $request->request->get('Assunto');
         $Email = $request->request->get('Email');
+        $cor = $request->request->get('cor');
+        $obj = $request->request->get('obj');
+        $altura = $request->request->get('Altura');
+        $largura = $request->request->get('Largura');
         $Mensagem = $request->request->get('text');
 
         $message = (new \Swift_Message($Assunto))
@@ -41,7 +45,7 @@ class DefaultController extends AbstractController
             ->setBody(
                 $this->renderView(
                     'emails/orcamento.html.twig',
-                    array('usrname' => $Username, 'Email' => $Email,'Mensagem' => $Mensagem)
+                    array('usrname' => $Username, 'Email' => $Email,'Mensagem' => $Mensagem,'cor' => $cor,'obj' => $obj,'altura' => $altura,'largura' => $largura)
                 ),
                 'text/html'
             )
